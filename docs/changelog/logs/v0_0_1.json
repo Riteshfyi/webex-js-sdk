@@ -1,0 +1,16 @@
+{
+  "@webex/test-webex-node": {
+    "0.0.1-next.1": {
+      "published_date": 1749063702409,
+      "commits": {
+        "f70f0e060b779423e1ddc5f4d9017c41c26dcaaf": "fix: taking paired device into account for lobby state (#4218)"
+      },
+      "alongWith": {
+        "@webex/internal-plugin-voicea": "3.8.0-next.71",
+        "@webex/plugin-meetings": "3.8.0-next.71",
+        "webex": "3.8.0-next.104",
+        "webex-node": "3.8.0-next.53"
+      }
+    }
+  }
+}
