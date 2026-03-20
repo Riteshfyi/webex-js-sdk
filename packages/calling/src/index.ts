@@ -1,3 +1,4 @@
+/* eslint-disable-next-line import/order */
 import {NoiseReductionEffect, createMicrophoneStream} from '@webex/media-helpers';
 import {createCallSettingsClient} from './CallSettings/CallSettings';
 import {createContactsClient} from './Contacts/ContactsClient';
