@@ -214,7 +214,7 @@ jobs:
                 .join('\n');
               packagesTable = [
                 '',
-                '| Package | Version |',
+                '| Packages Updated | Version |',
                 '|---------|---------|',
                 rows,
                 ''
@@ -225,7 +225,6 @@ jobs:
               '| :tada: Your changes are now available! |',
               '|---|',
               releaseLine,
-              `| **Packages updated:** ${primaryPackage ? `\`${primaryPackage}\`` : 'N/A'} |`,
               `| :book: **[View full changelog →](${changelogUrl})** |`,
               packagesTable,
               'Thank you for your contribution!',
