@@ -19,7 +19,11 @@
       "commits": {
         "5c729c340bfakesha1234567890abcdef12345678": "feat(contact-center,calling): test bot comment with multi-package changes (#2)"
       },
-      "alongWith": {}
+      "alongWith": {
+        "@webex/common": "3.11.0-next.99",
+        "@webex/internal-plugin-conversation": "3.11.0-next.99",
+        "@webex/plugin-logger": "3.11.0-next.99"
+      }
     }
   }
 }
