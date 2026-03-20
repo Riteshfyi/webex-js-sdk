@@ -104,7 +104,7 @@ jobs:
             }
 
             const fileName = `v${stableVersion.replace(/\./g, '_')}`;
-            const changelogUrl = `https://raw.githubusercontent.com/${context.repo.owner}/${context.repo.repo}/documentation/docs/changelog/logs/${fileName}.json`;
+            const changelogUrl = `https://raw.githubusercontent.com/webex/webex-js-sdk/documentation/docs/changelog/logs/${fileName}.json`;
             console.log(`Fetching changelog from: ${changelogUrl}`);
 
             let changelog = {};
