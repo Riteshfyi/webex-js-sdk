@@ -3,7 +3,7 @@
     "3.11.0-next.99": {
       "published_date": 1742500000000,
       "commits": {
-        "5c729c340bfakesha1234567890abcdef12345678": "feat(contact-center,calling): test bot comment with multi-package changes (#9999)"
+        "5c729c340bfakesha1234567890abcdef12345678": "feat(contact-center,calling): test bot comment with multi-package changes (#2)"
       },
       "alongWith": {
         "@webex/calling": "3.11.0-next.99",
@@ -17,7 +17,7 @@
     "3.11.0-next.99": {
       "published_date": 1742500000000,
       "commits": {
-        "5c729c340bfakesha1234567890abcdef12345678": "feat(contact-center,calling): test bot comment with multi-package changes (#9999)"
+        "5c729c340bfakesha1234567890abcdef12345678": "feat(contact-center,calling): test bot comment with multi-package changes (#2)"
       },
       "alongWith": {}
     }
