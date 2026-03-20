@@ -2,9 +2,7 @@ import {registerPlugin} from '@webex/webex-core';
 import config from './config';
 import ContactCenter from './cc';
 
-/**
- * @module ContactCenterModule
- * /
+/** @module ContactCenterModule */
 
 // Core exports
 /**
