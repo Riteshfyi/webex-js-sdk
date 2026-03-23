@@ -1,29 +1,56 @@
 {
   "@webex/contact-center": {
-    "3.11.0-next.99": {
-      "published_date": 1742500000000,
+    "3.11.0-next.13": {
+      "published_date": 1770994931995,
       "commits": {
-        "5c729c340b273a55c99f85330b81d30b2829fda9": "feat(contact-center,calling): test bot comment with multi-package changes (#2)"
+        "5c729c340b273a55c99f85330b81d30b2829fda9": "feat(contact-center,calling): test bot comment with multi-package changes"
       },
       "alongWith": {
-        "@webex/calling": "3.11.0-next.99",
-        "webex": "3.11.0-next.99",
-        "@webex/internal-plugin-device": "3.11.0-next.99",
-        "@webex/internal-plugin-mercury": "3.11.0-next.99"
+        "@webex/internal-plugin-ai-assistant": "3.11.0-next.6",
+        "@webex/internal-plugin-avatar": "3.11.0-next.4",
+        "@webex/internal-plugin-board": "3.11.0-next.5",
+        "@webex/internal-plugin-calendar": "3.11.0-next.6",
+        "@webex/internal-plugin-conversation": "3.11.0-next.5",
+        "@webex/internal-plugin-device": "3.11.0-next.4",
+        "@webex/internal-plugin-dss": "3.11.0-next.6",
+        "@webex/internal-plugin-encryption": "3.11.0-next.5",
+        "@webex/internal-plugin-feature": "3.11.0-next.4",
+        "@webex/internal-plugin-flag": "3.11.0-next.5",
+        "@webex/internal-plugin-llm": "3.11.0-next.5",
+        "@webex/internal-plugin-locus": "3.11.0-next.5",
+        "@webex/internal-plugin-lyra": "3.11.0-next.5",
+        "@webex/internal-plugin-mercury": "3.11.0-next.5",
+        "@webex/internal-plugin-metrics": "3.11.0-next.4",
+        "@webex/internal-plugin-presence": "3.11.0-next.5",
+        "@webex/internal-plugin-search": "3.11.0-next.5",
+        "@webex/internal-plugin-support": "3.11.0-next.5",
+        "@webex/internal-plugin-user": "3.11.0-next.4",
+        "@webex/internal-plugin-voicea": "3.11.0-next.5",
+        "@webex/internal-plugin-wdm": "3.11.0-next.4",
+        "@webex/plugin-authorization": "3.11.0-next.4",
+        "@webex/plugin-device-manager": "3.11.0-next.6",
+        "@webex/plugin-encryption": "3.11.0-next.5",
+        "@webex/plugin-logger": "3.11.0-next.4",
+        "@webex/plugin-meetings": "3.11.0-next.20",
+        "@webex/plugin-memberships": "3.11.0-next.5",
+        "@webex/plugin-messages": "3.11.0-next.5",
+        "@webex/plugin-people": "3.11.0-next.5",
+        "@webex/plugin-rooms": "3.11.0-next.5",
+        "@webex/plugin-webhooks": "3.11.0-next.4",
+        "@webex/webex-core": "3.11.0-next.4",
+        "@webex/calling": "3.11.0-next.7",
+        "webex": "3.11.0-next.29",
+        "webex-node": "3.11.0-next.6"
       }
     }
   },
   "webex": {
-    "3.11.0-next.99": {
-      "published_date": 1742500000000,
+    "3.11.0-next.29": {
+      "published_date": 1770994931995,
       "commits": {
-        "5c729c340b273a55c99f85330b81d30b2829fda9": "feat(contact-center,calling): test bot comment with multi-package changes (#2)"
+        "5c729c340b273a55c99f85330b81d30b2829fda9": "feat(contact-center,calling): test bot comment with multi-package changes"
       },
-      "alongWith": {
-        "@webex/common": "3.11.0-next.99",
-        "@webex/internal-plugin-conversation": "3.11.0-next.99",
-        "@webex/plugin-logger": "3.11.0-next.99"
-      }
+      "alongWith": {}
     }
   }
 }
