@@ -3,7 +3,7 @@
     "3.11.0-next.13": {
       "published_date": 1770994931995,
       "commits": {
-        "5c729c340b273a55c99f85330b81d30b2829fda9": "feat(contact-center,calling): test bot comment with multi-package changes"
+        "ec600a3f4be23dcecbe4f3d940ab288b395e8b4f": "fix(ci): simplify to deploy SHA-only matching"
       },
       "alongWith": {
         "@webex/internal-plugin-ai-assistant": "3.11.0-next.6",
@@ -48,7 +48,7 @@
     "3.11.0-next.29": {
       "published_date": 1770994931995,
       "commits": {
-        "5c729c340b273a55c99f85330b81d30b2829fda9": "feat(contact-center,calling): test bot comment with multi-package changes"
+        "ec600a3f4be23dcecbe4f3d940ab288b395e8b4f": "fix(ci): simplify to deploy SHA-only matching"
       },
       "alongWith": {}
     }
