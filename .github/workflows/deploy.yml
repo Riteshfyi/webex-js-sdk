@@ -10,6 +10,15 @@ on:
       test_pr_number:
         description: 'PR number to comment on (for testing)'
         required: true
+      scenario:
+        description: 'Test scenario'
+        required: true
+        type: choice
+        default: 'all_packages'
+        options:
+          - all_packages
+          - sub_packages_only
+          - no_packages
 
 jobs:
   publish-npm:
@@ -23,11 +32,18 @@ jobs:
       - name: Mock Increment Package Versions
         id: increment
         run: |
+          SCENARIO="${{ github.event.inputs.scenario || 'all_packages' }}"
+          echo "Running scenario: $SCENARIO"
           echo "package_versions<<EOF" >> $GITHUB_OUTPUT
-          echo "package: @webex/internal-plugin-device => 3.5.0-next.4" >> $GITHUB_OUTPUT
-          echo "package: @webex/internal-plugin-mercury => 3.5.0-next.4" >> $GITHUB_OUTPUT
-          echo "package: @webex/webex-core => 3.5.0-next.4" >> $GITHUB_OUTPUT
-          echo "package: webex => 3.5.0-next.4" >> $GITHUB_OUTPUT
+          if [ "$SCENARIO" = "all_packages" ]; then
+            echo "package: @webex/internal-plugin-device => 3.5.0-next.4" >> $GITHUB_OUTPUT
+            echo "package: @webex/internal-plugin-mercury => 3.5.0-next.4" >> $GITHUB_OUTPUT
+            echo "package: @webex/webex-core => 3.5.0-next.4" >> $GITHUB_OUTPUT
+            echo "package: webex => 3.5.0-next.4" >> $GITHUB_OUTPUT
+          elif [ "$SCENARIO" = "sub_packages_only" ]; then
+            echo "package: @webex/internal-plugin-device => 3.4.0-next.7" >> $GITHUB_OUTPUT
+            echo "package: @webex/internal-plugin-mercury => 3.3.0-next.2" >> $GITHUB_OUTPUT
+          fi
           echo "EOF" >> $GITHUB_OUTPUT
           echo "Mock increment complete"
 
